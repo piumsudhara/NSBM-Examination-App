@@ -1,0 +1,282 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0,1,2"
+    android:gravity="center">
+    <TableRow
+        android:background="#FFFFFF"
+        android:layout_width="fill_parent">
+        <TableRow
+            android:background="#000000"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1">
+        </TableRow>
+    </TableRow>
+
+    <TableRow
+
+        android:background="#000000"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_margin="1dp"
+        android:layout_weight="0.2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Mon 18/12"
+            android:textSize="20dp"
+            android:layout_margin="1dp"
+            android:layout_column="0"
+            android:background="#0047b3"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Tue 19/12"
+            android:textSize="20dp"
+            android:layout_margin="1dp"
+            android:layout_column="1"
+            android:background="#ffff1a"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Wed 20/12"
+            android:textSize="20dp"
+            android:layout_margin="1dp"
+            android:background="#00b33c"
+            android:gravity="center"
+            android:layout_column="2"
+            />
+    </TableRow
+        >
+
+    <TableRow
+        android:background="#000000"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_margin="1dp"
+        android:layout_weight="0.5">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Java"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_margin="1dp"
+            android:layout_column="0"
+            android:background="#0047b3"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="N/A"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_margin="1dp"
+            android:layout_column="1"
+            android:background="#ffff1a"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Web"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_margin="1dp"
+            android:background="#00b33c"
+            android:gravity="center"
+            android:layout_column="2" />
+    </TableRow>
+
+
+
+    <TableRow
+        android:background="#000000"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_margin="1dp"
+        android:layout_weight="0.2"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Thu 21/12"
+            android:textSize="20dp"
+            android:layout_margin="1dp"
+            android:layout_column="0"
+            android:background="#cc9900"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Fri 22/12"
+            android:textSize="20dp"
+            android:layout_margin="1dp"
+            android:layout_column="1"
+            android:background="#b800e6"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Mon 25/12"
+            android:textSize="20dp"
+            android:layout_margin="1dp"
+            android:background="#29a3a3"
+            android:gravity="center"
+            android:layout_column="2" />
+    </TableRow>
+
+    <TableRow
+        android:background="#000000"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_margin="1dp"
+        android:layout_weight="0.5"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="HCI"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_margin="1dp"
+            android:layout_column="0"
+            android:background="#cc9900"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Database"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_margin="1dp"
+            android:layout_column="1"
+            android:background="#b800e6"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Network"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_margin="1dp"
+            android:background="#29a3a3"
+            android:gravity="center"
+            android:layout_column="2" />
+    </TableRow>
+    <TableRow
+
+        android:background="#000000"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_margin="1dp"
+        android:layout_weight="0.2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tue 26/12"
+            android:textSize="20dp"
+            android:layout_margin="1dp"
+            android:layout_column="0"
+            android:background="#ffff1a"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Wed 27/12"
+            android:textSize="20dp"
+            android:layout_margin="1dp"
+            android:layout_column="1"
+            android:background="#00cccc"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Thu 28/12"
+            android:textSize="20dp"
+            android:layout_margin="1dp"
+            android:background="	#0d5959"
+            android:gravity="center"
+            android:layout_column="2"
+            />
+    </TableRow
+        >
+
+    <TableRow
+        android:background="#000000"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_margin="1dp"
+        android:layout_weight="0.5">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="N/A"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_margin="1dp"
+            android:layout_column="0"
+            android:background="#ffff1a"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Project"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_margin="1dp"
+            android:layout_column="1"
+            android:background="#00cccc"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Network Security"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_margin="1dp"
+            android:background="	#0d5959"
+            android:gravity="center"
+            android:layout_column="2" />
+    </TableRow>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="              N/A :Not Applicable"
+        android:textSize="25dp"/>
+
+
+</TableLayout>

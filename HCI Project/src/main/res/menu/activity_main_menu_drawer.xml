@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_f1"
+            android:icon="@drawable/user2"
+            android:title="Student Details" />
+        <item
+            android:id="@+id/nav_f2"
+            android:icon="@drawable/results"
+            android:title="Examination Results" />
+        <item
+            android:id="@+id/nav_f3"
+            android:icon="@drawable/calender"
+            android:title="Exam TimeTable" />
+        <item
+            android:id="@+id/nav_f4"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
+</menu>
